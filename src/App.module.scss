@@ -1,10 +1,27 @@
-#root {
-
+* {
   margin: 0 auto;
-  padding: 2rem;
- 
- 
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans', sans-serif;
 }
+$text-color:#273049;
+$card-color:#F4F2Ec;
+$particular-color:#5AC6EC;
+$prenotation-color:#00182B;
+
+.Header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:$card-color;
+  padding: 12px;
+}
+.Logo{
+  width: 40px;
+  height: 40px;
+
+}
+
 .App{
 
 }

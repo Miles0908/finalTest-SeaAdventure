@@ -1,0 +1,70 @@
+$text-color: #273049;
+$card-color: #f4f2ec;
+$particular-color: #5ac6ec;
+$prenotation-color: #00182b;
+
+.List {
+  margin: 62px;
+  gap: 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  list-style-type: none;
+
+}
+
+.SingleCard {
+  letter-spacing: 1px;
+  background-color: $card-color;
+  border-radius: 12px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  
+
+  &__btn {
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 35px;
+    background-color: $text-color;
+    color: $card-color;
+    margin-top: 10px;
+  }
+
+  &__ParagraphBlue {
+    color: $particular-color;
+ 
+   
+  }
+  &__BoatType {
+  display:flex;
+  flex-direction: row;
+  align-items: flex-start;
+  }
+  &__Departure {
+    color: $text-color;
+  }
+  &__Period{
+    margin: 4px;
+    display: flex;
+    
+
+}
+
+}
+
+@media screen and (max-width: 980px) {
+  .CardList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .List {
+    width: 400px;
+    display: flex;
+
+    flex-direction: column;
+  }
+}
