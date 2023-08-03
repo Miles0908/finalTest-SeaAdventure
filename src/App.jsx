@@ -1,12 +1,20 @@
-
+import logo from "./assets/logo.svg"
 import styles from "./App.module.scss"
+import Hero from "./components/Hero/Hero"
+import Banner from "./components/Banner/Banner"
+import CardList from "./CardList"
 
 function App() {
 
 
   return (
     <>
-      <div className={styles.App}>ciao sono il div di app</div>
+     <div className={styles.App}>
+    <header className={styles.Header}><img className={styles.Logo} src={logo} alt="logo" /></header>
+     <Hero/>
+     <CardList/>
+     <Banner/>
+     </div>
     </>
   )
 }

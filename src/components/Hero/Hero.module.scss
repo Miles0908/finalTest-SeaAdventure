@@ -1,0 +1,27 @@
+$text-color:#273049;
+$card-color:#F4F2Ec;
+$particular-color:#5AC6EC;
+$prenotation-color:#00182B;
+
+.Hero__Wrapper{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.Hero__Img{
+    width: 100%;
+    height: 600px;
+    display: block;
+    filter: brightness(60%);
+    z-index: -1;
+}
+
+.Hero__Text{
+    letter-spacing: 2px;
+    position: absolute;
+    text-align: center;
+    color: $card-color;
+}
