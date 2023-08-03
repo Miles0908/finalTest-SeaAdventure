@@ -3,6 +3,7 @@ import styles from "./App.module.scss"
 import Hero from "./components/Hero/Hero"
 import Banner from "./components/Banner/Banner"
 import CardList from "./CardList"
+import RandomList from "./RandomList/RandomList"
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
      <Hero/>
      <CardList/>
      <Banner/>
+     <RandomList/>
      </div>
     </>
   )
