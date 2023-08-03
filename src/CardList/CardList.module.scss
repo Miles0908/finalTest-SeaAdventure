@@ -65,6 +65,18 @@ $prenotation-color: #00182b;
     height: 50px;
     margin-bottom: 12px;
 }
+.Filter{
+  margin: 12px;
+  display: flex;
+  align-items: center;
+
+}
+
+.PortFilter{
+  padding: 12px;
+  height: 50px;
+  
+}
 
 @media screen and (max-width: 980px) {
   .CardList {
@@ -72,9 +84,10 @@ $prenotation-color: #00182b;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
   }
   .List {
-    width: 400px;
+    width: 300px;
     display: flex;
     flex-direction: column;
   }
