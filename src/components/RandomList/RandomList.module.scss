@@ -18,8 +18,11 @@ $prenotation-color: #00182b;
   border-radius: 12px;
   width: 100%;
   box-sizing: border-box;
-  padding: 10px;
-  
+  padding: 15px;
+
+  &__Title {
+    margin: 4px;
+  }
 
   &__btn {
     letter-spacing: 1px;
@@ -31,42 +34,63 @@ $prenotation-color: #00182b;
     background-color: $text-color;
     color: $card-color;
     margin-top: 10px;
+    border-radius: 4px;
+    transition: 0.4s;
+
+    &:hover{
+      background-color: #f4f2ec;
+      color:#273049 ;
+    }
   }
 
   &__ParagraphBlue {
     color: $particular-color;
- 
-   
   }
   &__BoatType {
-  display:flex;
-  flex-direction: row;
-  align-items: flex-start;
+    margin-right: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   &__Departure {
     color: $text-color;
   }
-  &__Period{
-    margin: 4px;
+  &__Period {
+    margin: 12px;
     display: flex;
-    
-
+  }
+  &__Available {
+    margin: 12px;
+  }
+  &__Icon {
+    margin-right: 12px;
+  }
 }
 
+.ShowMore {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $card-color;
+  background-color: $text-color;
+  width: 200px;
+  height: 50px;
+  margin-bottom: 12px;
+  border-radius: 4px;
+}
+.Filter {
+  margin: 12px;
+  display: flex;
+  align-items: center;
 }
 
-.ShowMore{
-    display: flex;
-    align-items: center;
-   justify-content: center;
-    color: $card-color;
-    background-color: $text-color;
-    width: 200px;
-    height: 50px;
-    margin-bottom: 12px;
+.PortFilter {
+  padding: 12px;
+  height: 50px;
+  border-radius: 4px;
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1050px) {
   .CardList {
     display: flex;
     align-items: center;
@@ -74,7 +98,7 @@ $prenotation-color: #00182b;
     flex-direction: column;
   }
   .List {
-    width: 400px;
+    width: 300px;
     display: flex;
     flex-direction: column;
   }

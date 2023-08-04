@@ -1,8 +1,2 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Sea Adventures ⛵
+ Tutti i passaggi sono stati eseguiti correttamente, ad eccezione del step 4 che non rispecchia pienamente le istruzioni quando visualizzato da un computer desktop. Tuttavia, tale problema non si presenta su dispositivi mobili. Nel caso in cui il filtro relativo al porto di partenza sia attivo in riferimento allo step 5, la funzionalità dello stesso risulta compromessa. Per risolvere questa situazione, è necessario selezionare l'opzione "Mostra tutti" e successivamente applicare il filtro desiderato.
